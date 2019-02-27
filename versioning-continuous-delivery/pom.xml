@@ -20,7 +20,7 @@
 
 		<!-- IntelliJ grouses the following dynamic properties. Workaround: Settings > Build, Execution, Development > Build Tools > Maven > Runner > Properties. Add git.commit.time and git.commit.id.abbrev with empty value. -->
 		<version.number>${git.commit.time}.${git.commit.id.abbrev}</version.number>
-		<docker.repository.name>phauer/${project.artifactId}</docker.repository.name>
+		<docker.repository.name>huyaws/${project.artifactId}</docker.repository.name>
 		<!-- Instead of docker hub, you can use your own registry: -->
 		<!--<docker.repository.name>registry.domain.de/group/${project.artifactId}</docker.repository.name>-->
 	</properties>
